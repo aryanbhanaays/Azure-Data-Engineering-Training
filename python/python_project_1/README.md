@@ -34,7 +34,7 @@ This Python project reads two CSV files containing item and sales data, merges t
 1. Clone the repository:
     ```bash
     git clone https://github.com/aryanbhanaays/Azure-Data-Engineering-Training/tree/main
-    cd python/python-project
+    cd python/python-project_1
     ```
 
 2. Install the required libraries using `requirements.txt`:
@@ -48,7 +48,7 @@ This Python project reads two CSV files containing item and sales data, merges t
 
 2. Run the script:
     ```bash
-    python average_cost_calculation.py
+    python main.py
     ```
 
 3. The output file `avg_costs.csv` will be generated in the project directory, containing the average cost calculations.
