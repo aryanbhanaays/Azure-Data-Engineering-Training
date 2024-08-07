@@ -33,7 +33,7 @@ This Python project reads two CSV files containing item and sales data, merges t
 
 1. Clone the repository:
     ```bash
-    git clone 
+    git clone https://github.com/aryanbhanaays/Azure-Data-Engineering-Training/tree/main
     cd python/python-project
     ```
 
