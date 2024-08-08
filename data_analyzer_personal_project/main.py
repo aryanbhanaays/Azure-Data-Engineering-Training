@@ -39,11 +39,11 @@ gradient_text_css = """
 st.markdown(gradient_text_css, unsafe_allow_html=True)
 st.markdown('<div class="gradient-text" data-content="CodeBuddy.io">Sales Analysis</div>', unsafe_allow_html=True)
 
-with open("ui/sidebar.md", "r") as sidebar_file:
-    sidebar_content = sidebar_file.read()
+# with open("ui/sidebar.md", "r") as sidebar_file:
+#     sidebar_content = sidebar_file.read()
 
-with open("ui/styles.md", "r") as styles_file:
-    styles_content = styles_file.read()
+# with open("ui/styles.md", "r") as styles_file:
+#     styles_content = styles_file.read()
 
 
 st.sidebar.markdown(sidebar_content)
