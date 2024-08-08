@@ -1,7 +1,3 @@
-Here's a sample README file for your Streamlit project:
-
----
-
 # Sales Data Analysis with Streamlit
 
 ## Overview
@@ -81,4 +77,4 @@ For any questions or feedback, please visit [Aryan Bhan's GitHub](https://github
 
 ---
 
-This README provides a clear overview of your project, installation instructions, and usage guidelines. Feel free to modify it based on your specific requirements or preferences.
+This README provides a clear overview of your project, installation instructions, and usage guidelines.
