@@ -33,10 +33,8 @@ def setup_test_data(tmp_path):
     items_file = tmp_path / "Items.csv"
     sales_file = tmp_path / "Sales.csv"
     output_file = tmp_path / "avg_costs.csv"
-
     items_file.write_text(items_csv)
     sales_file.write_text(sales_csv)
-
     return str(items_file), str(sales_file), str(output_file)
 
 def test_calculate_average_costs(setup_test_data):
@@ -49,7 +47,6 @@ def test_calculate_average_costs(setup_test_data):
 
     items_file, sales_file, output_file = setup_test_data
 
-
     calculate_average_costs(items_file, sales_file, output_file)
 
     avg_cost_df = pd.read_csv(output_file)
@@ -59,6 +56,4 @@ def test_calculate_average_costs(setup_test_data):
         'AvgCost': [10.0, 20.0, 30.0]
     }
     expected_df = pd.DataFrame(expected_data)
-
-    # Assert that the dataframes are equal
     assert avg_cost_df.equals(expected_df)
