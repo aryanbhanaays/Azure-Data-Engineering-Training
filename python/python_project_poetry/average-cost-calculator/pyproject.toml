@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "average-cost-calculator"
+version = "0.1.0"
+description = ""
+authors = ["aryanbhanaays <aryanbhan@aaysinsight.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
