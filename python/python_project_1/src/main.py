@@ -37,4 +37,4 @@ if __name__ == "__main__":
     sales_file = os.path.join(base_path, 'Sales.csv')
     output_file = os.path.join(base_path, 'avg_costs.csv')
     calculate_average_costs(items_file, sales_file, output_file)
-    print("Average cost calculation completed and saved to 'avg_costs.csv'.")
+    print("Average cost calculation completed and saved to 'files/avg_costs.csv'.")
