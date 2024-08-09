@@ -19,7 +19,7 @@ def calculate_average_costs(items_file, sales_file, output_file):
     avg_cost_df.to_csv(output_file, index=False)
 
 if __name__ == "__main__":
-    base_path = 'C:/Users/AryanBhan/OneDrive - AAYS ADVISORY PRIVATE LIMITED/Desktop/Company Work/training/Azure-Data-Engineering-Training/python/python_project_poetry/files'
+    base_path = 'C:/Users/AryanBhan/OneDrive - AAYS ADVISORY PRIVATE LIMITED/Desktop/Company Work/training/Azure-Data-Engineering-Training/python/python_project_poetry/average-cost-calculator/files'
     items_file = os.path.join(base_path, 'Items.csv')
     sales_file = os.path.join(base_path, 'Sales.csv')
     output_file = os.path.join(base_path, 'avg_costs.csv')
